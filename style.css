@@ -4,6 +4,7 @@
     font-size: 62.5%;
     --black: #080808;
     --green: #68f74c;
+    --purple: #c30dd4;
 }
 
 * {
@@ -23,13 +24,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: var(--black);
+    background-color: white;
     padding: 5rem;
     gap: 5rem;
 }
 
 .menu a {
-    color: white;
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -50,7 +51,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--black);
+    background-color: var(--purple);
     padding: 20rem;
     gap: 10rem;
 }
@@ -58,7 +59,7 @@ body {
 .textos p {
     font-size: 3rem;
     text-align: center;
-    color: var(--green);
+    color: var(--black);
 }
 
 footer {
@@ -66,7 +67,8 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--green);
+    background-color: var(--black);
+    color: white;
     padding: 5rem;
     gap: 1rem;
 }
