@@ -1,2 +1,3 @@
 # responsive-flexbox
-Estudo de responsividade usando flexbox e media query.
+
+Testes iniciais de responsividade com flexbox e media query.
